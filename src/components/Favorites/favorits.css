@@ -1,0 +1,60 @@
+.favorites {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #ecf0f1;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .favorites h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f39c12;
+    margin-bottom: 20px;
+  }
+  
+  .favorites .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .favorites .movie-card {
+    background-color: #151a17;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+
+  .favorites .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .favorites button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorites button:hover {
+    background-color: #c0392b;
+  }
+  
+  .favorites p {
+    font-size: 18px;
+    color: #bdc3c7;
+  }
